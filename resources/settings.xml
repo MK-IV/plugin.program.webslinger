@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="Websites">
+		<setting type="lsep" label="[COLOR red]Website #1[/COLOR]"/>
+                <setting id="label_1" type="text" label="Label" default=""/>
+		<setting id="url_1" type="text" label="URL" default=""/>
+                <setting id="icon_1" type="select" label="Icon" values="Default|Website|YouTube|Facebook|Twitter|Donate|Shop|Email|Forum|Repo|Help" default="Default" />
+		<setting type="lsep" label="[COLOR red]Website #2[/COLOR]"/>
+                <setting id="label_2" type="text" label="Label" default=""/>
+		<setting id="url_2" type="text" label="URL" default=""/>
+                <setting id="icon_2" type="select" label="Icon" values="Default|Website|YouTube|Facebook|Twitter|Donate|Shop|Email|Forum|Repo|Help" default="Default" />
+		<setting type="lsep" label="[COLOR red]Website #3[/COLOR]"/>
+                <setting id="label_3" type="text" label="Label" default=""/>
+		<setting id="url_3" type="text" label="URL" default=""/>
+                <setting id="icon_3" type="select" label="Icon" values="Default|Website|YouTube|Facebook|Twitter|Donate|Shop|Email|Forum|Repo|Help" default="Default" />
+		<setting type="lsep" label="[COLOR red]Website #4[/COLOR]"/>
+                <setting id="label_4" type="text" label="Label" default=""/>
+		<setting id="url_4" type="text" label="URL" default=""/>
+                <setting id="icon_4" type="select" label="Icon" values="Default|Website|YouTube|Facebook|Twitter|Donate|Shop|Email|Forum|Repo|Help" default="Default" />
+		<setting type="lsep" label="[COLOR red]Website #5[/COLOR]"/>
+                <setting id="label_5" type="text" label="Label" default=""/>
+		<setting id="url_5" type="text" label="URL" default=""/>
+                <setting id="icon_5" type="select" label="Icon" values="Default|Website|YouTube|Facebook|Twitter|Donate|Shop|Email|Forum|Repo|Help" default="Default" />
+		<setting type="lsep" label="[COLOR red]Website #6[/COLOR]"/>
+                <setting id="label_6" type="text" label="Label" default=""/>
+		<setting id="url_6" type="text" label="URL" default=""/>
+                <setting id="icon_6" type="select" label="Icon" values="Default|Website|YouTube|Facebook|Twitter|Donate|Shop|Email|Forum|Repo|Help" default="Default" />
+		<setting type="lsep" label="[COLOR red]Website #7[/COLOR]"/>
+                <setting id="label_7" type="text" label="Label" default=""/>
+		<setting id="url_7" type="text" label="URL" default=""/>
+                <setting id="icon_7" type="select" label="Icon" values="Default|Website|YouTube|Facebook|Twitter|Donate|Shop|Email|Forum|Repo|Help" default="Default" />
+		<setting type="lsep" label="[COLOR red]Website #8[/COLOR]"/>
+                <setting id="label_8" type="text" label="Label" default=""/>
+		<setting id="url_8" type="text" label="URL" default=""/>
+                <setting id="icon_8" type="select" label="Icon" values="Default|Website|YouTube|Facebook|Twitter|Donate|Shop|Email|Forum|Repo|Help" default="Default" />
+		<setting type="lsep" label="[COLOR red]Website #9[/COLOR]"/>
+                <setting id="label_9" type="text" label="Label" default=""/>
+		<setting id="url_9" type="text" label="URL" default=""/>
+                <setting id="icon_9" type="select" label="Icon" values="Default|Website|YouTube|Facebook|Twitter|Donate|Shop|Email|Forum|Repo|Help" default="Default" />
+		<setting type="lsep" label="[COLOR red]Website #10[/COLOR]"/>
+                <setting id="label_10" type="text" label="Label" default=""/>
+		<setting id="url_10" type="text" label="URL" default=""/>
+                <setting id="icon_10" type="select" label="Icon" values="Default|Website|YouTube|Facebook|Twitter|Donate|Shop|Email|Forum|Repo|Help" default="Default" />
+	</category>
+	<category label="Auto-View">
+		<setting id="auto-view" type="bool" label="Enable Auto View" default="true"/>
+		<setting id="MAIN" type="number" label="MAIN" default="500" enable="!eq(-1,false)"/>
+		<setting id="INFO" type="number" label="INFO" default="515" enable="!eq(-1,false)"/>
+   	</category> 	
+</settings>
