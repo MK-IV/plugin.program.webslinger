@@ -1,12 +1,24 @@
 import xbmc, xbmcaddon, xbmcgui, xbmcplugin,os,base64,sys,xbmcvfs
 import shutil
-import urllib2,urllib
+import urllib
 import re
 import time
 import ntpath
 import webbrowser
 import glob
+# Py2
+try:
+    from urlparse import urljoin
+    from urllib import quote_plus, unquote_plus
+    import urllib2
+    from HTMLParser import HTMLParser
 
+# Py3:
+except ImportError:
+    import urllib.request as urllib2
+    from urllib.parse import urljoin, quote_plus, unquote_plus
+
+from resources.libs import extract, downloader, notify, debridit, traktit, loginit, skinSwitch, uploadLog, yt, speedtest, wizard as wiz
 
 
 
